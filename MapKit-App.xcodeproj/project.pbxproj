@@ -12,6 +12,9 @@
 		BE73860527C2A663002F2AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE73860427C2A663002F2AAC /* ViewController.swift */; };
 		BE73860A27C2A668002F2AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE73860927C2A668002F2AAC /* Assets.xcassets */; };
 		BE73860D27C2A668002F2AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE73860B27C2A668002F2AAC /* LaunchScreen.storyboard */; };
+		BE73861727C2AA42002F2AAC /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE73861627C2AA42002F2AAC /* UIView+Ext.swift */; };
+		BE73861A27C2AADB002F2AAC /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE73861927C2AADB002F2AAC /* UIColor+Ext.swift */; };
+		BE73861D27C2B7E8002F2AAC /* LocationRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE73861C27C2B7E8002F2AAC /* LocationRequestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BE73860927C2A668002F2AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE73860C27C2A668002F2AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE73860E27C2A668002F2AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE73861627C2AA42002F2AAC /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		BE73861927C2AADB002F2AAC /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		BE73861C27C2B7E8002F2AAC /* LocationRequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				BE73860927C2A668002F2AAC /* Assets.xcassets */,
 				BE73860B27C2A668002F2AAC /* LaunchScreen.storyboard */,
 				BE73860E27C2A668002F2AAC /* Info.plist */,
+				BE73861627C2AA42002F2AAC /* UIView+Ext.swift */,
+				BE73861927C2AADB002F2AAC /* UIColor+Ext.swift */,
+				BE73861C27C2B7E8002F2AAC /* LocationRequestController.swift */,
 			);
 			path = "MapKit-App";
 			sourceTree = "<group>";
@@ -133,7 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE73861727C2AA42002F2AAC /* UIView+Ext.swift in Sources */,
 				BE73860527C2A663002F2AAC /* ViewController.swift in Sources */,
+				BE73861D27C2B7E8002F2AAC /* LocationRequestController.swift in Sources */,
+				BE73861A27C2AADB002F2AAC /* UIColor+Ext.swift in Sources */,
 				BE73860127C2A663002F2AAC /* AppDelegate.swift in Sources */,
 				BE73860327C2A663002F2AAC /* SceneDelegate.swift in Sources */,
 			);
