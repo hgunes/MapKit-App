@@ -7,8 +7,11 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
 class LocationRequestController: UIViewController {
+  
+  var locationManager: CLLocationManager?
   
   let imageView: UIImageView = {
     let iv = UIImageView()
@@ -42,6 +45,12 @@ class LocationRequestController: UIViewController {
     super.viewDidLoad()
     
     configure()
+    
+    if locationManager != nil {
+      print("Did set location manager")
+    } else {
+      print("No location manager")
+    }
   }
   
   
@@ -69,6 +78,8 @@ class LocationRequestController: UIViewController {
   
   @objc
   func handleRequestLocation() {
-    print("ENABLE")
+    guard let locationManager = self.locationManager else { return }
+    
+    locationManager.requestWhenInUseAuthorization()
   }
 }

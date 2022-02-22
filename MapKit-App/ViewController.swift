@@ -45,7 +45,11 @@ extension ViewController: CLLocationManagerDelegate {
       print("NOT DETERMINED")
       
       DispatchQueue.main.async {
-        self.present(LocationRequestController(), animated: true)
+        
+        let controller = LocationRequestController()
+        controller.locationManager = self.locationManager
+        
+        self.present(controller, animated: true)
       }
       
     case .restricted:
