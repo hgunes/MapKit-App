@@ -30,7 +30,7 @@ class LocationRequestController: UIViewController {
   let button: UIButton = {
     let button = UIButton(type: .system)
     button.setTitle("Enable location", for: .normal)
-    button.backgroundColor = .blue
+    button.backgroundColor = .mainBlue()
     button.setTitleColor(.white, for: .normal)
     button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
     button.layer.cornerRadius = 5
